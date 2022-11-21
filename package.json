@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dlstechteaching/devops-06-ci.git"
+    "url": "git+https://github.com/dlstechteaching/devops-07-cd-start.git"
   },
   "keywords": [
     "devOps",

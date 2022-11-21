@@ -1,7 +1,7 @@
 {
-  "name": "devops-06-ci",
+  "name": "devops-07-cd-start",
   "version": "1.0.0",
-  "description": "devops 06 recap and ci",
+  "description": "devops 07 cd start",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -28,9 +28,9 @@
   "author": "dls",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dlstechteaching/devops-06-ci/issues"
+    "url": "https://github.com/dlstechteaching/devops-07-cd-start/issues"
   },
-  "homepage": "https://github.com/dlstechteaching/devops-06-ci#readme",
+  "homepage": "https://github.com/dlstechteaching/devops-07-cd-start#readme",
   "devDependencies": {
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",

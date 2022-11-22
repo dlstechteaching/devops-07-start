@@ -2,7 +2,7 @@ name: DevOps 07 CD
 
 on:
   push:
-    branches: [main]
+    branches: [trunk]
   workflow_dispatch:
 
 jobs:

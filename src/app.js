@@ -19,6 +19,7 @@ const getCurrentMonth = (date = new Date()) => {
     return months[currentMonth];
 };
 
+// TDD Example
 const isAdmin = (userId) => userId === "admin";
 
 try {

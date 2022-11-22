@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.14
+          cache: "npm"
       - run: npm ci
 
   code_quality:
@@ -23,6 +24,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.14
+          cache: "npm"
       - run: npm ci
       - run: npm run lint
       - run: npm run prettier
@@ -35,6 +37,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.14
+          cache: "npm"
       - run: npm ci
       - run: npm test
 
@@ -46,5 +49,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.14
+          cache: "npm"
       - run: npm ci
       - run: npm run build

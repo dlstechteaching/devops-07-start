@@ -2,7 +2,8 @@ name: DevOps 07 CI
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [trunk]
+  workflow_dispatch:
 
 jobs:
   check_code:
@@ -17,5 +18,3 @@ jobs:
       - run: npm run prettier
       - run: npm test
       - run: npm run build
-
-      
